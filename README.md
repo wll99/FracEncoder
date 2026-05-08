@@ -29,15 +29,3 @@ FOR EXAMPLE:
 python -m judge_sac.trainer --env PendulumP --steps 100000 --seed 0 --reward-mode env --disable-judge --actor-context-mode fade --critic-context-mode fade --actor-context-frac-alpha 0.6 --critic-context-frac-alpha 0.6 --seq-len 64 --lr 3e-4
 ```
 
-## Citation
-
-If you find our work useful, please cite us as follows:
-
-```
-@inproceedings{fracencoder2026,
-  title     = {FracEncoder: Towards Adaptive Cognitive Trajectories via Fractional-Order Context Encoding},
-  author    = {Anonymous},
-  booktitle = {The Fortieth Annual Conference on Neural Information Processing Systems},
-  year      = {2026}
-}
-```
